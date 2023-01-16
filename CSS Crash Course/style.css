@@ -1,0 +1,11 @@
+h3 {
+    background-color: beige;
+    color: rgba(211, 211, 211, 0.486);
+    width: 100&;
+}
+p {
+    font-family: roboto, sans-serif;
+    width: 100%;
+    border: 1px solid black;
+    color: saddlebrown;
+}
