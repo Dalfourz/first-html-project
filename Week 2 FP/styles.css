@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    padding-right: 56px;
+}
+.logo__wrapper {
+    display: flex;
+    align-items: center;
+    margin: 24px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.btn__sign-up {
+    background-color: rgb(100 21 255);
+    color: white;
+    border: none;
+    padding: 16px 36px;
+    border-radius: 9999px;
+}
