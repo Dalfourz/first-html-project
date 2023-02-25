@@ -251,6 +251,7 @@ header {
 
 .work__img {
     width: 100%;
+    padding-left: 32px;
 }
 
 /* STEPS */
@@ -271,6 +272,7 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
+    padding-left: 32px;
 }
 
 .steps__wrapper {
@@ -279,13 +281,27 @@ header {
 
 .step {
     display: flex;
+    padding-bottom: 32px;
 }
 
 .step__number {
     display: flex;
+    font-size: 36px;
+    color: #cbd5e0;
+}
+
+.step__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.step__subtitle {
+    padding-bottom: 16px;
 }
 
 .step__desc {
     display: flex;
     flex-direction: column;
+    padding-left: 32px;
 }
