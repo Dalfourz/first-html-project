@@ -11,6 +11,9 @@
     color: #6415FF;
 }
 
+.just {
+    text-align: center;
+}
 li {
     list-style: none;
 }
@@ -372,3 +375,40 @@ header {
 
 /* PRICING */
 
+.plans__wrapper-para {
+    display: flex;
+    flex-direction: column;
+}
+
+.plans {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/3);
+    align-items: center;
+    border: 1px ;
+}
+
+.top__bar {
+    background-color:rgb(129, 230, 217);
+    height: 8px;
+    width: 100%;
+    border-top-right-radius: 999px;
+    border-top-left-radius: 999px;
+    border: 0px;
+}
+
+.top {
+    width: 100%;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+
+.business {
+    background-color: rgb(102, 126, 234);
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);;
+}
