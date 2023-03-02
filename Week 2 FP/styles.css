@@ -336,6 +336,7 @@ header {
 
 .values__desc-sub {
     display: flex;
+    padding: 0 0 32px 0;
 }
 .values__sub {
     display: flex;
@@ -368,3 +369,6 @@ header {
     border: none 32px;
     padding: 16px;
 }
+
+/* PRICING */
+
